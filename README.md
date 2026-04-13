@@ -7,18 +7,17 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 5️⃣ Contact Book
-A command-line contact management application to store and search personal contacts.
+### 6️⃣ Quiz App
+A command-line quiz application that asks multiple-choice questions and calculates the final score.
 
 **Features:**
-- Add contacts
-- View contacts
-- Search contacts
-- Delete contacts
-- Save data using JSON
+- Show quiz questions
+- Accept user answers
+- Check correct answers
+- Calculate final score
 
 📂 Path:
-/project-05-contact-book
+/project-06-quiz-app
 
 ---
 
@@ -54,6 +53,10 @@ python main.py
 
 # 5️⃣ Run Contact Book
 cd project-05-contact-book
+python main.py
+
+# 6️⃣ Run Quiz App
+cd project-06-quiz-app
 python main.py
 
 ```
