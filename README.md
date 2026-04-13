@@ -7,17 +7,16 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 3️⃣ Password Manager
-A command-line application to save and manage account credentials.
+### 4️⃣ File Organizer
+A Python automation script that organizes files into folders based on file type.
 
 **Features:**
-- Add account details
-- View saved accounts
-- Delete accounts
-- Save data using JSON
+- Sort files by extension
+- Automatically create folders
+- Move files into categorized directories
 
 📂 Path:
-/project-03-password-manager
+/project-04-file-organizer
 
 ---
 
@@ -44,6 +43,10 @@ python main.py
 
 # 3️⃣ Run Password Manager
 cd project-03-password-manager
+python main.py
+
+# 4️⃣ Run File Organizer
+cd project-04-file-organizer
 python main.py
 ```
 
