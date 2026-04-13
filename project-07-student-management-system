@@ -1,0 +1,192 @@
+import json
+import os
+
+FILE_NAME = "data.json"
+
+
+# ======================
+# File Handling
+# ======================
+def load_data():
+    if os.path.exists(FILE_NAME):
+        with open(FILE_NAME, "r") as file:
+            return json.load(file)
+    return []
+
+
+def save_data(data):
+    with open(FILE_NAME, "w") as file:
+        json.dump(data, file, indent=4)
+
+
+students = load_data()
+
+
+# ======================
+# Utility Functions
+# ======================
+def generate_id():
+    if not students:
+        return 1
+    return max(s["id"] for s in students) + 1
+
+
+def calculate_average(grades):
+    if not grades:
+        return 0
+    return sum(grades) / len(grades)
+
+
+def get_status(avg):
+    return "Pass" if avg >= 60 else "Fail"
+
+
+# ======================
+# Core Features
+# ======================
+def show_students():
+    if not students:
+        print("No students found.")
+        return
+
+    print("\n=== Students List ===")
+    for s in students:
+        avg = calculate_average(s["grades"])
+        status = get_status(avg)
+        print(f"ID: {s['id']} | Name: {s['name']} | Age: {s['age']} | Avg: {avg:.2f} | Status: {status}")
+
+
+def add_student():
+    name = input("Enter name: ")
+    age = input("Enter age: ")
+
+    student = {
+        "id": generate_id(),
+        "name": name,
+        "age": age,
+        "grades": []
+    }
+
+    students.append(student)
+    save_data(students)
+
+    print("Student added successfully!")
+
+
+def search_student():
+    keyword = input("Enter name to search: ").lower()
+
+    found = False
+    for s in students:
+        if keyword in s["name"].lower():
+            avg = calculate_average(s["grades"])
+            print(f"Found -> ID: {s['id']} | Name: {s['name']} | Avg: {avg:.2f}")
+            found = True
+
+    if not found:
+        print("Student not found.")
+
+
+def delete_student():
+    show_students()
+    try:
+        sid = int(input("Enter student ID to delete: "))
+        for s in students:
+            if s["id"] == sid:
+                students.remove(s)
+                save_data(students)
+                print("Deleted successfully!")
+                return
+        print("Student not found.")
+    except:
+        print("Invalid input")
+
+
+def update_student():
+    show_students()
+    try:
+        sid = int(input("Enter student ID to update: "))
+        for s in students:
+            if s["id"] == sid:
+                new_name = input("Enter new name (leave empty to keep same): ")
+                new_age = input("Enter new age (leave empty to keep same): ")
+
+                if new_name:
+                    s["name"] = new_name
+                if new_age:
+                    s["age"] = new_age
+
+                save_data(students)
+                print("Updated successfully!")
+                return
+
+        print("Student not found.")
+    except:
+        print("Invalid input")
+
+
+def add_grades():
+    show_students()
+    try:
+        sid = int(input("Enter student ID: "))
+        for s in students:
+            if s["id"] == sid:
+                grade = float(input("Enter grade: "))
+                s["grades"].append(grade)
+                save_data(students)
+                print("Grade added!")
+                return
+
+        print("Student not found.")
+    except:
+        print("Invalid input")
+
+
+def show_reports():
+    print("\n=== Reports ===")
+    for s in students:
+        avg = calculate_average(s["grades"])
+        status = get_status(avg)
+
+        print(f"{s['name']} -> Avg: {avg:.2f} | Status: {status}")
+
+
+# ======================
+# Menu
+# ======================
+def menu():
+    while True:
+        print("\n===== Student Management System =====")
+        print("1. Show Students")
+        print("2. Add Student")
+        print("3. Search Student")
+        print("4. Update Student")
+        print("5. Delete Student")
+        print("6. Add Grades")
+        print("7. Reports")
+        print("8. Exit")
+
+        choice = input("Choose: ")
+
+        if choice == "1":
+            show_students()
+        elif choice == "2":
+            add_student()
+        elif choice == "3":
+            search_student()
+        elif choice == "4":
+            update_student()
+        elif choice == "5":
+            delete_student()
+        elif choice == "6":
+            add_grades()
+        elif choice == "7":
+            show_reports()
+        elif choice == "8":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice")
+
+
+menu()
