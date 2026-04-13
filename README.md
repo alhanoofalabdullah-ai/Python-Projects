@@ -7,18 +7,18 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 💰 Expense Tracker
-
-A command-line application to track personal expenses.
+### 3️⃣ Password Manager
+A command-line application to save and manage account credentials.
 
 **Features:**
-- Add expenses
-- View expenses
-- Delete expenses
-- Calculate total spending
+- Add account details
+- View saved accounts
+- Delete accounts
+- Save data using JSON
 
-📁 Path:
-/project-02-expense-tracker
+📂 Path:
+/project-03-password-manager
+
 ---
 
 ## 🛠️ Skills Demonstrated
@@ -34,12 +34,16 @@ A command-line application to track personal expenses.
 ## ▶️ How to Run
 
 ```bash
-# Run To-Do App
+# 1️⃣ Run To-Do App
 cd project-01-todo-app
 python main.py
 
-# Run Expense Tracker
+# 2️⃣ Run Expense Tracker
 cd project-02-expense-tracker
+python main.py
+
+# 3️⃣ Run Password Manager
+cd project-03-password-manager
 python main.py
 ```
 
