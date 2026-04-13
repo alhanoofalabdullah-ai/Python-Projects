@@ -7,17 +7,21 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 6️⃣ Quiz App
-A command-line quiz application that asks multiple-choice questions and calculates the final score.
+### 7️⃣ Student Management System
+A command-line system to manage student records, grades, and performance.
 
 **Features:**
-- Show quiz questions
-- Accept user answers
-- Check correct answers
-- Calculate final score
+- Add students
+- View students
+- Search students
+- Update student info
+- Delete students
+- Add grades
+- Calculate average
+- Show reports
 
 📂 Path:
-/project-06-quiz-app
+/project-07-student-management-system
 
 ---
 
@@ -57,6 +61,9 @@ python main.py
 
 # 6️⃣ Run Quiz App
 cd project-06-quiz-app
+python main.py
+
+cd project-07-student-management-system
 python main.py
 
 ```
