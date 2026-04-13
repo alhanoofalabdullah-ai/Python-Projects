@@ -7,16 +7,18 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 4️⃣ File Organizer
-A Python automation script that organizes files into folders based on file type.
+### 5️⃣ Contact Book
+A command-line contact management application to store and search personal contacts.
 
 **Features:**
-- Sort files by extension
-- Automatically create folders
-- Move files into categorized directories
+- Add contacts
+- View contacts
+- Search contacts
+- Delete contacts
+- Save data using JSON
 
 📂 Path:
-/project-04-file-organizer
+/project-05-contact-book
 
 ---
 
@@ -33,6 +35,7 @@ A Python automation script that organizes files into folders based on file type.
 ## ▶️ How to Run
 
 ```bash
+
 # 1️⃣ Run To-Do App
 cd project-01-todo-app
 python main.py
@@ -48,6 +51,11 @@ python main.py
 # 4️⃣ Run File Organizer
 cd project-04-file-organizer
 python main.py
+
+# 5️⃣ Run Contact Book
+cd project-05-contact-book
+python main.py
+
 ```
 
 ---
