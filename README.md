@@ -7,21 +7,37 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 7️⃣ Student Management System
-A command-line system to manage student records, grades, and performance.
+### 🧠 Advanced Search System
+A powerful command-line system to search and filter data using multiple conditions.
 
 **Features:**
-- Add students
-- View students
-- Search students
-- Update student info
-- Delete students
-- Add grades
-- Calculate average
-- Show reports
+- Add records
+- Search by name
+- Filter by category
+- Filter by price range
+- Sort results
+- Delete records
 
 📂 Path:
-/project-07-student-management-system
+/project-09-advanced-search-system
+
+---
+
+### ⚙️ Task Automation System Pro
+A professional task management and automation system with reporting and tracking features.
+
+**Features:**
+- Add tasks
+- Update tasks
+- Delete tasks
+- Search tasks
+- Filter by status & priority
+- Show overdue tasks
+- Dashboard & reports
+- Activity logging
+
+📂 Path:
+/project-10-task-automation-system
 
 ---
 
@@ -63,7 +79,20 @@ python main.py
 cd project-06-quiz-app
 python main.py
 
+# 7️⃣ Run Student Management System
 cd project-07-student-management-system
+python main.py
+
+# 8️⃣ Run Inventory System
+cd project-08-inventory-system
+python main.py
+
+# 9️⃣ Run Advanced Search System
+cd project-09-advanced-search-system
+python main.py
+
+# 🔟 Run Task Automation System
+cd project-10-task-automation-system
 python main.py
 
 ```
@@ -76,9 +105,9 @@ Building strong foundation in Python through hands-on projects and real use case
 
 ---
 
-## 📍 More Projects Coming Soon...
-
-* Expense Tracker 💰
-* Password Manager 🔐
-* File Organizer 📁
-* Automation Scripts ⚙️
+## 🚀 Portfolio Highlights
+- Built 10 real-world Python CLI applications
+- Designed scalable and modular systems using OOP principles
+- Implemented data persistence using JSON storage
+- Developed search, filtering, and reporting features
+- Strong focus on clean code, problem solving, and system design
