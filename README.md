@@ -7,21 +7,18 @@ This repository contains practical applications built to demonstrate real-world 
 
 ## 📌 Projects
 
-### 1️⃣ To-Do App
+### 💰 Expense Tracker
 
-A command-line task management system.
+A command-line application to track personal expenses.
 
 **Features:**
+- Add expenses
+- View expenses
+- Delete expenses
+- Calculate total spending
 
-* Add tasks
-* View tasks
-* Delete tasks
-* Persistent storage using JSON
-
-📂 Path:
-
-```
-/project-01-todo-app
+📁 Path:
+/project-02-expense-tracker
 ---
 
 ## 🛠️ Skills Demonstrated
@@ -37,7 +34,12 @@ A command-line task management system.
 ## ▶️ How to Run
 
 ```bash
+# Run To-Do App
 cd project-01-todo-app
+python main.py
+
+# Run Expense Tracker
+cd project-02-expense-tracker
 python main.py
 ```
 
