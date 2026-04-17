@@ -152,21 +152,6 @@ A professional task management and automation system with reporting and tracking
 
 ---
 
-### 1️⃣1️⃣ Flask Task Management API
-A simple REST API built with Flask to manage tasks.
-
-**Features:**
-- Get all tasks
-- Add task
-- Update task
-- Delete task
-- JSON-based storage
-- RESTful API structure
-
-📂 Path: `/project-11-flask-task-api`
-
----
-
 ## 🛠 Skills Demonstrated
 - Python Programming
 - Problem Solving
@@ -223,10 +208,6 @@ python main.py
 # 🔟 Run Task Automation System
 cd project-10-task-automation-system
 python main.py
-
-cd 1️⃣1️⃣ project-11-flask-task-api
-pip install flask
-python app.py
 
 ```
 
