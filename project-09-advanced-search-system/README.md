@@ -1,26 +1,15 @@
-# Advanced Search System
+# 🔍 Advanced Search System
 
-A professional command-line search system built with Python.
+A command-line system to store and search records using multiple filters.
 
 ## Features
 - Add records
-- View all data
 - Search by name
 - Filter by category
 - Filter by price range
 - Sort results
 - Delete records
-- Save data using JSON
-
-## Concepts Used
-- Python
-- File Handling
-- JSON
-- Search and Filter Logic
-- Sorting
-- CLI Design
 
 ## How to Run
 ```bash
-cd project-09-advanced-search-system
 python main.py
