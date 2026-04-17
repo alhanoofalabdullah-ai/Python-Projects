@@ -1,21 +1,16 @@
-# 📦 Inventory Management System (PRO)
+# 📦 Inventory Management System
 
-A professional CLI inventory system built using Python.
+A command-line system to manage products and inventory.
 
-## 🚀 Features
-- Add / Update / Delete products
+## Features
+- Add products
+- View inventory
 - Search products
-- Inventory reporting
-- JSON data storage
-- Logging system
+- Update products
+- Delete products
+- Track stock quantity
+- Calculate total inventory value
 
-## 🧠 Concepts Used
-- Object-Oriented Programming (OOP)
-- File Handling (JSON)
-- Data Structures
-- CLI Application Design
-
-## ▶️ How to Run
-
-cd project-08-inventory-system
+## How to Run
+```bash
 python main.py
