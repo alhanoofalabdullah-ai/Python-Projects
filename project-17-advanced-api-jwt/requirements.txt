@@ -1,0 +1,32 @@
+flask
+pyjwt
+werkzeug
+
+## Setup Commands
+
+cd ~/Python-Projects
+mkdir project-17-advanced-api-jwt
+cd project-17-advanced-api-jwt
+touch README.md app.py requirements.txt
+
+## Run
+
+pip install -r requirements.txt
+python app.py
+
+## Git
+
+cd ..
+git add .
+git commit -m "add project 17 advanced api jwt"
+git push
+
+## API testing
+
+POST http://127.0.0.1:5000/register
+POST http://127.0.0.1:5000/login
+GET http://127.0.0.1:5000/protected
+
+## protected / header
+
+Authorization: Bearer YOUR_TOKEN
