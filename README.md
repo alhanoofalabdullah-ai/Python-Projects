@@ -1,12 +1,12 @@
 # Python Projects
 
-A collection of Python projects covering automation, APIs, data processing, and system utilities.
+A complete collection of Python projects covering automation, APIs, data processing, and system utilities.
 
 ---
 
 ## Overview
 
-This repository contains hands-on Python projects designed to build practical programming skills and real-world problem-solving abilities.
+This repository contains practical Python projects designed to build strong programming skills and simulate real-world applications.
 
 ---
 
@@ -14,30 +14,44 @@ This repository contains hands-on Python projects designed to build practical pr
 
 ### Core Projects
 
-* [Project 11 – API Data Fetcher](./project-11-api-data-fetcher)
-* [Project 12 – File Backup System](./project-12-file-backup-system)
-* [Project 13 – Log Analyzer](./project-13-log-analyzer)
-* [Project 14 – Email Sender Automation](./project-14-email-sender-automation)
-* [Project 15 – Web Scraper](./project-15-web-scraper)
-* [Project 16 – REST API + Database](./project-16-rest-api-database)
-* [Project 17 – Advanced API (Auth + JWT)](./project-17-advanced-api-jwt)
-* [Project 18 – CLI Task Manager](./project-18-cli-task-manager)
-* [Project 19 – Data Cleaner](./project-19-data-cleaner)
-* [Project 20 – Automation Bot](./project-20-automation-bot)
+* Project 01 – To-Do App
+* Project 02 – Expense Tracker
+* Project 03 – Password Manager
+* Project 04 – File Organizer
+* Project 05 – Contact Book
+* Project 06 – Quiz App
+* Project 07 – Student Management System
+* Project 08 – Inventory System
+* Project 09 – Advanced Search System
+* Project 10 – Task Automation System
+
+---
+
+### Advanced Projects
+
+* Project 11 – API Data Fetcher
+* Project 12 – File Backup System
+* Project 13 – Log Analyzer
+* Project 14 – Email Sender Automation
+* Project 15 – Web Scraper / System Monitor
+* Project 16 – REST API + Database (Flask + SQLite)
+* Project 17 – Advanced API (Auth + JWT)
+* Project 18 – CLI Task Manager (Professional Tool)
+* Project 19 – Data Cleaner
+* Project 20 – Automation Bot
 
 ---
 
 ## Technologies Used
 
 * Python
-* REST APIs
 * Flask
+* REST APIs
 * SQLite
 * JSON
 * File Handling
-* Automation
-* Web Scraping
-* CLI Tools
+* Requests Library
+* Automation Scripts
 
 ---
 
@@ -47,16 +61,27 @@ This repository contains hands-on Python projects designed to build practical pr
 * Backend development
 * Automation scripting
 * Data processing
-* File management
-* Error handling
-* CLI development
+* File system management
+* CLI tools development
 * Web scraping
+* Authentication systems
+* Error handling
+
+---
+
+## Project Structure
+
+Each project includes:
+
+* `main.py` or `app.py` → Main application
+* `requirements.txt` → Dependencies
+* `README.md` → Documentation
 
 ---
 
 ## Goal
 
-Build a strong Python portfolio with practical projects that demonstrate real-world skills and readiness for backend and automation roles.
+Build a strong Python portfolio demonstrating real-world development skills for backend, automation, and scripting roles.
 
 ---
 
