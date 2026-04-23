@@ -1,227 +1,65 @@
-# 🚀 Python Projects Portfolio
+# Python Projects
 
-Welcome to my Python projects repository 👩‍💻  
-This repository contains practical applications built to demonstrate real-world problem solving using Python.
-
----
-
-## 📌 Projects
-
-### 1️⃣ To-Do App
-A command-line task management system.
-
-**Features:**
-- Add tasks
-- View tasks
-- Delete tasks
-- Persistent storage using JSON
-
-📂 Path: `/project-01-todo-app`
+A collection of Python projects covering automation, APIs, data processing, and system utilities.
 
 ---
 
-### 2️⃣ Expense Tracker
-A command-line application to track personal expenses.
+## Overview
 
-**Features:**
-- Add expenses
-- View expenses
-- Delete expenses
-- Calculate total spending
-
-📂 Path: `/project-02-expense-tracker`
+This repository contains hands-on Python projects designed to build practical programming skills and real-world problem-solving abilities.
 
 ---
 
-### 3️⃣ Password Manager
-A command-line application to save and manage account credentials.
+## Projects
 
-**Features:**
-- Add account details
-- View saved accounts
-- Delete accounts
-- Save data using JSON
+### Core Projects
 
-📂 Path: `/project-03-password-manager`
-
----
-
-### 4️⃣ File Organizer
-A Python automation script that organizes files into folders based on file type.
-
-**Features:**
-- Sort files by extension
-- Automatically create folders
-- Move files into categorized directories
-
-📂 Path: `/project-04-file-organizer`
+* [Project 11 – API Data Fetcher](./project-11-api-data-fetcher)
+* [Project 12 – File Backup System](./project-12-file-backup-system)
+* [Project 13 – Log Analyzer](./project-13-log-analyzer)
+* [Project 14 – Email Sender Automation](./project-14-email-sender-automation)
+* [Project 15 – Web Scraper](./project-15-web-scraper)
+* [Project 16 – REST API + Database](./project-16-rest-api-database)
+* [Project 17 – Advanced API (Auth + JWT)](./project-17-advanced-api-jwt)
+* [Project 18 – CLI Task Manager](./project-18-cli-task-manager)
+* [Project 19 – Data Cleaner](./project-19-data-cleaner)
+* [Project 20 – Automation Bot](./project-20-automation-bot)
 
 ---
 
-### 5️⃣ Contact Book
-A command-line contact management application.
+## Technologies Used
 
-**Features:**
-- Add contacts
-- View contacts
-- Search contacts
-- Delete contacts
-- Store data using JSON
-
-📂 Path: `/project-05-contact-book`
-
----
-
-### 6️⃣ Quiz App
-A command-line quiz application for answering multiple questions and calculating scores.
-
-**Features:**
-- Multiple-choice questions
-- Score calculation
-- Result display
-- Interactive CLI design
-
-📂 Path: `/project-06-quiz-app`
+* Python
+* REST APIs
+* Flask
+* SQLite
+* JSON
+* File Handling
+* Automation
+* Web Scraping
+* CLI Tools
 
 ---
 
-### 7️⃣ Student Management System
-A command-line system to manage student records, grades, and performance.
+## Skills Covered
 
-**Features:**
-- Add students
-- View students
-- Search students
-- Update student info
-- Delete students
-- Add grades
-- Calculate averages
-- Show reports
-
-📂 Path: `/project-07-student-management-system`
+* API integration
+* Backend development
+* Automation scripting
+* Data processing
+* File management
+* Error handling
+* CLI development
+* Web scraping
 
 ---
 
-### 8️⃣ Inventory Management System
-A professional command-line inventory management system built with Python.
+## Goal
 
-**Features:**
-- Add new products
-- View inventory items
-- Search products
-- Update product details
-- Delete products
-- Track stock quantity
-- Generate reports
-- Save data using JSON
-
-📂 Path: `/project-08-inventory-system`
+Build a strong Python portfolio with practical projects that demonstrate real-world skills and readiness for backend and automation roles.
 
 ---
 
-### 9️⃣ Advanced Search System
-A command-line system to search and filter records using multiple conditions.
+## Author
 
-**Features:**
-- Add records
-- Search by name
-- Filter by category
-- Filter by price range
-- Sort results
-- Delete records
-- Save data using JSON
-
-📂 Path: `/project-09-advanced-search-system`
-
----
-
-### 🔟 Task Automation System Pro
-A professional task management and automation system with reporting and tracking features.
-
-**Features:**
-- Add tasks
-- Update tasks
-- Delete tasks
-- Search tasks
-- Filter by status and priority
-- Show overdue tasks
-- Dashboard and reports
-- Activity logging
-
-📂 Path: `/project-10-task-automation-system`
-
----
-
-## 🛠 Skills Demonstrated
-- Python Programming
-- Problem Solving
-- File Handling
-- JSON Data Storage
-- CLI Application Design
-- Object-Oriented Programming (OOP)
-- Automation Scripts
-- API Development with Flask
-- Backend Fundamentals
-
----
-
-## ▶️ How to Run
-
-```bash
-
-# 1️⃣ Run To-Do App
-cd project-01-todo-app
-python main.py
-
-# 2️⃣ Run Expense Tracker
-cd project-02-expense-tracker
-python main.py
-
-# 3️⃣ Run Password Manager
-cd project-03-password-manager
-python main.py
-
-# 4️⃣ Run File Organizer
-cd project-04-file-organizer
-python main.py
-
-# 5️⃣ Run Contact Book
-cd project-05-contact-book
-python main.py
-
-# 6️⃣ Run Quiz App
-cd project-06-quiz-app
-python main.py
-
-# 7️⃣ Run Student Management System
-cd project-07-student-management-system
-python main.py
-
-# 8️⃣ Run Inventory System
-cd project-08-inventory-system
-python main.py
-
-# 9️⃣ Run Advanced Search System
-cd project-09-advanced-search-system
-python main.py
-
-# 🔟 Run Task Automation System
-cd project-10-task-automation-system
-python main.py
-
-```
-
----
-
-## 🎯 Goal
-
-Building strong foundation in Python through hands-on projects and real use cases.
-
----
-
-## 🚀 Portfolio Highlights
-- Built 10 real-world Python CLI applications
-- Designed scalable and modular systems using OOP principles
-- Implemented data persistence using JSON storage
-- Developed search, filtering, and reporting features
-- Strong focus on clean code, problem solving, and system design
+Alhanoof Alabdullah
