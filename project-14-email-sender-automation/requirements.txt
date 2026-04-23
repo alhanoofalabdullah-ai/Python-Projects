@@ -1,0 +1,27 @@
+No external dependencies required
+
+## Setup Commands
+
+cd ~/Python-Projects
+mkdir project-14-email-sender-automation
+cd project-14-email-sender-automation
+touch README.md main.py requirements.txt
+
+## Run the Project
+
+python main.py
+
+## Git Commands
+
+cd ..
+git add .
+git commit -m "add project 14 email sender automation"
+git push
+
+## Important Setup
+
+For Gmail:
+
+Enable 2-Step Verification
+Generate an App Password
+Use the App Password in the script instead of your normal Gmail password
