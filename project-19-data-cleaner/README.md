@@ -42,6 +42,24 @@ This project demonstrates how to clean raw data by removing empty rows, trimming
 ```bash
 python main.py
 
+## Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-19-data-cleaner
+- cd project-19-data-cleaner
+- touch README.md main.py raw_data.csv cleaned_data.csv
+
+## Run the Project
+
+python main.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 19 data cleaner"
+- git push
+
 --------
 Author
 
