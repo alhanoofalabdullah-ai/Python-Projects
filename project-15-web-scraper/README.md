@@ -41,6 +41,25 @@ This project demonstrates how to scrape data from a website and extract useful i
 ```bash
 python main.py
 
+## Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-15-web-scraper
+- cd project-15-web-scraper
+- touch README.md main.py requirements.txt
+
+## Run
+
+- pip install -r requirements.txt
+- python main.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 15 web scraper"
+- git push
+
 ------------------
 Author
 
