@@ -43,6 +43,24 @@ This project demonstrates how to build a command-line task manager that allows u
 ```bash
 python main.py
 
+## Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-18-cli-task-manager
+- cd project-18-cli-task-manager
+- touch README.md main.py tasks.json
+
+## Run the Project
+
+python main.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 18 cli task manager"
+- git push
+
 ----------
 Author
 
