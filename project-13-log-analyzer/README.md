@@ -42,6 +42,24 @@ This project reads a log file and analyzes it to count errors, warnings, and oth
 ```bash
 python main.py
 
+## Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-13-log-analyzer
+- cd project-13-log-analyzer
+- touch README.md main.py requirements.txt logs.txt
+
+## Run
+
+python main.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 13 log analyzer"
+- git push
+
 ------
 
 Author
