@@ -42,6 +42,40 @@ This project demonstrates how to automate repetitive file tasks such as creating
 ```bash
 python main.py
 
+## Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-20-automation-bot
+- cd project-20-automation-bot
+- mkdir files organized
+- touch README.md main.py
+
+## Run the Project
+
+python main.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 20 automation bot"
+- git push
+
+## Example test files
+
+# Add in files 
+
+- report.pdf
+- photo.jpg
+- script.py
+- notes.txt
+
+# Transfer to 
+
+- organized/documents
+- organized/images
+- organized/scripts
+
 ------------
 Author
 
