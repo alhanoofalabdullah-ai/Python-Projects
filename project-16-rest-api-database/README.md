@@ -74,6 +74,25 @@ python app.py
   "price": 1200
 }
 
+⚙️ Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-16-rest-api-database
+- cd project-16-rest-api-database
+- touch README.md app.py requirements.txt
+
+▶️ Run
+
+- pip install -r requirements.txt
+- python app.py
+
+📤 Git
+
+- cd ..
+- git add .
+- git commit -m "add project 16 rest api database"
+- git push
+
 -----------------
 Author
 
