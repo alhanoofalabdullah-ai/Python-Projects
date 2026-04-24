@@ -41,6 +41,26 @@ This project demonstrates how to create a simple backup system using Python by c
 ```bash
 python main.py
 
+
+## Setup Commands
+
+- cd ~/Python-Projects
+- mkdir project-12-file-backup-system
+- cd project-12-file-backup-system
+- mkdir source_files backup_files
+- touch README.md main.py requirements.txt
+
+## Run the Project
+
+python main.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 12 file backup system"
+- git push
+
 --------------------
 Author
 
